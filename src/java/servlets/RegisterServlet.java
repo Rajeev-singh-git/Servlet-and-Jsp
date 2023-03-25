@@ -29,12 +29,28 @@ public void doPost(HttpServletRequest request, HttpServletResponse response) thr
      out.println("<h2> Email : "+ email + "<h2>");
      out.println("<h2> Gender : " + gender + "<h2>");
      out.println("<h2> Course : " + course + "<h2>");
+     
+     //
+     //JDBC
+     // Suppose data is stored in db
+     
+       RequestDispatcher rd= request.getRequestDispatcher("success");
+       rd.forward(request, response);
  } else{
      out.println("<h2>You have not accepted terms and condition</h2>");
  }
  }else{
        out.println("<h2>You have not accepted terms and condition</h2>");
- }
+    // To get output of index.html
+    
+    //get the object of RequestDispatcher
+    
+    RequestDispatcher rd= request.getRequestDispatcher("index.html");
+    
+    //include method
+    rd.include(request, response);
+        
+}
 
 }
 }
