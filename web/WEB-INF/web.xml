@@ -17,6 +17,11 @@
         <servlet-class>servlets.ThirdServlet</servlet-class>
     </servlet>
     
+    <servlet>
+        <servlet-name>register</servlet-name>
+        <servlet-class>servlets.RegisterServlet</servlet-class>
+    </servlet>
+    
     
     <!--mapping-->
     <servlet-mapping>
@@ -33,6 +38,11 @@
     <servlet-mapping>
         <servlet-name>third</servlet-name>
         <url-pattern>/third</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>register</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
     </servlet-mapping>
     
     <session-config>
