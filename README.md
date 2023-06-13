@@ -26,13 +26,8 @@ This is a simple web application that demonstrates the use of servlets and JSP. 
 2. Run in netbeans or other IDE
 
 
-mvn clean install
-```
-
-4. Run the following command to start the app:
 
 ```
-java -jar target/servlet-and-jsp-1.0-SNAPSHOT.war
 
 
 The app will start running on port 9494. You can access the app by opening a web browser and navigating to the following URL:
