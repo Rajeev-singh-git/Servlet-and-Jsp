@@ -1,7 +1,6 @@
 # Servlet-and-Jsp
 Servlet, Jsp and tomcat
 
-Sure, I can help you with that. Here is a README file for the git repository you linked to:
 
 
 # Servlet and JSP
